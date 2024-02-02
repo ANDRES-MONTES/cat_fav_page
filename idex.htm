@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAtos ALeatorios</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="title_container">
+     <h1>CHOOSE YOUR CAT</h1>
+    </div>
+    <span id="error"></span>
+    <div class="info_container">
+        <div id="random_cat">
+            <div class="h2_container">
+                <h2>CATS</h2>
+            </div>
+            <div class="contaier_gatitos">
+                <div>
+                    <img id ="imagen_gato"  alt="picture of cat">
+                    <button id="botton_cat_1" class="botton_cat">save in favorites</button>
+                </div>
+                <div>
+                    <img id ="imagen_gato_2"  alt="picture of cat">
+                    <button id="botton_cat_2" class="botton_cat">save in favorites</button>
+                </div>
+                <div>
+                    <img id ="imagen_gato_3"  alt="picture of cat">
+                    <button id="botton_cat_3" class="botton_cat">save in favorites</button>
+                </div>
+            </div>
+            <button class="button_load" id="button">GET A CAT</button>
+        </div>
+         <div id="favorites_cats">
+            <h2 class="favorite_title">Your favorites:</h2>
+            <div class="container_favorites_cats">
+            </div>
+        </div>
+        <div id="uploadig_michi">
+            <h2>sube la foto de tu michi</h2>
+            <form id="uplading_form">
+                <input id="file" type="file" name="file" onchange="show_image_preview()">
+                <img id="gato_pre" src="" alt="" style="display:none">
+                <button class="subir_foto" type="button" onclick="upload_picture()">SUBIR MICHI</button>
+            </form>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

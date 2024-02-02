@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(240, 240, 252);
+    padding-bottom: 50px;
+}
+
+.title_container{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+h1 {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    box-shadow: 12px 10px 14px 1px black;
+}
+
+.info_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#random_cat {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.h2_container{
+    text-align: center;
+
+}
+h2 {
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+
+.contaier_gatitos {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+
+}
+
+#favorites_cats{
+    margin: 0 auto;
+}
+
+.container_favorites_cats{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 35px;
+    margin-top: 30px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 8px 11px 12px 0px black;
+}
+
+img:hover{
+    width: 190px;
+    height: 160px;
+}
+
+.botton_cat {
+    font-size: 16px;
+    width: 95px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(64, 245, 64);
+}
+
+.botton_cat_delete{
+    font-size: 16px;
+    width: 95px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid red;
+    background-color: rgb(255, 238, 238);
+}
+
+.botton_cat_delete:hover{
+    width: 105px;
+    height: 60px;
+    background-color: rgb(255, 211, 211);
+    font-weight: bolder;
+}
+
+.botton_cat:hover {
+    width: 105px;
+    height: 60px;
+    background-color: rgb(217, 251, 217);
+    font-weight: bolder;
+}
+
+.button_load {
+    font-weight: bold;
+    width: 95px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid rgb(64, 245, 64);
+}
+
+button:hover {
+    width: 105px;
+    height: 60px;
+    background-color: rgb(155, 229, 155);
+    font-weight: bolder;
+}
+
+
+#uploadig_michi{
+    padding-left: 30px;
+}
+
+#uploadig_michi h2 {
+    width: 100%;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.subir_foto{
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid rgb(64, 245, 64);
+    margin-top: 20px;
+}
+
+#gato_pre{
+    display: none;
+    margin-top: 10px;
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 8px 11px 12px 0px black;
+}
